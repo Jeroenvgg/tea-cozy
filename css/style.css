@@ -1,13 +1,4 @@
-
-body{
-    font-family: Helvetica;
-    font-size: 22;
-    color: seashell;
-    background-color:black;
-    opacity:0.9;
-    border-bottom: 1px solid seashell;
-}
-
+/* here will the header be defined */
 header {
     height: 69px;
 }
@@ -23,6 +14,46 @@ header .links{
     margin:0 50px 0 0;
     color:seashell !important;
 }
+
+/* here will the first main frame be defined */
+
+.first-main-frame {
+    position: relative;
+    text-align: center;
+    height: 700px; /* Adjust as needed */
+    background-image: url("../images/img-mission-background.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.our-mission{
+    color: white;
+    width: 1200px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:black;
+    position:center;
+    text-align: center;
+}
+
+
+
+body{
+    font-family: Helvetica;
+    font-size: 22;
+    color: seashell;
+    background-color:black;
+    opacity:0.9;
+    border-bottom: 1px solid seashell;
+}
+
+
+
+
 
 
 .second-images{
